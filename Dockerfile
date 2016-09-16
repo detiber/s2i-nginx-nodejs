@@ -8,7 +8,7 @@ RUN yum repolist && \
     yum-config-manager --enable rhel-server-rhscl-7-rpms && \
     yum-config-manager --enable rhel-7-server-ose-3.1-rpms && \
     yum-config-manager --enable rhel-7-server-optional-rpms && \
-    yum install -y rh-nginx18
+    yum install -y rh-nginx18 && \
     yum install -y bzip2 && \
     yum install -y nss_wrapper && \
     yum clean all && \
